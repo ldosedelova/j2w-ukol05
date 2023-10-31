@@ -19,10 +19,22 @@ body {
     align-items: center;
 }
 
-main {
-    max-width: 60rem;
-    min-width: 40rem;
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    background-color: rgba(255, 255, 255, 0.5);
+input, select {
+    width: 300px;
+    height: 25px;
+    margin: 20px;
+}
+
+button {
+    margin-left: 200px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+h1, .error {
+    text-align: center;
 }
